@@ -1,0 +1,220 @@
+/* Tendencias */
+    .container.mt-5 {
+      margin-top: 3rem !important;
+    }
+
+    .chart-container {
+      position: relative !important;
+      height: 300px !important;
+      width: 100% !important;
+      margin-bottom: 2rem !important;
+    }
+
+    .proyeccion {
+      color: #3dd050 !important;
+      font-style: italic !important;
+      font-weight: bold !important;
+    }
+
+
+    .punto-proyeccion {
+      background-color: #fff !important;
+      border: 2px solid !important;
+      border-radius: 50% !important;
+    }
+
+    .table.is-bordered.is-fullwidth {
+      width: 100% !important;
+      border-collapse: collapse !important;
+    }
+
+    .table.is-bordered th,
+    .table.is-bordered td {
+      border: 1px solid #dbdbdb !important;
+      padding: 0.5em 0.75em !important;
+    }
+
+    .title.is-4 {
+      font-size: 1.5rem !important;
+      font-weight: 600 !important;
+      line-height: 1.125 !important;
+    }
+
+    .subtitle.is-5 {
+      font-size: 1.25rem !important;
+      font-weight: 500 !important;
+      line-height: 1.25 !important;
+    }
+
+    .subtitle.is-6 {
+      font-size: 1rem !important;
+      font-weight: 500 !important;
+      line-height: 1.5 !important;
+    }
+
+    .field {
+      margin-bottom: 0.75rem !important;
+    }
+
+    .label {
+      display: block !important;
+      font-size: 1rem !important;
+      font-weight: 700 !important;
+    }
+
+    .select select {
+      width: 100% !important;
+      padding: 0.5em !important;
+      border: 1px solid #dbdbdb !important;
+      border-radius: 4px !important;
+      height: 2.5em !important;
+    }
+
+    .notification.is-warning {
+      background-color: #ffdd57 !important;
+      color: rgba(0, 0, 0, 0.7) !important;
+      padding: 1.25rem 2.5rem 1.25rem 1.5rem !important;
+      border-radius: 4px !important;
+    }
+
+    .box {
+      border-radius: 6px !important;
+      box-shadow: 0 0.5em 1em -0.125em rgb(79, 106, 245), 0 0px 0 1px rgba(99, 230, 102, 0.02) !important;
+      padding: 1.25rem !important;
+      margin-bottom: 1.5rem !important;
+    }
+
+/* Historial */
+    /* Estilo del botón AgregarFila */
+    #BotonAgregar {
+      background-color: #e3f2fd !important;
+      color: #0d47a1 !important;
+      border: 2px solid #0d47a1 !important;
+      font-weight: bold !important;
+      transition: all 0.3s ease !important;
+    }
+
+    /* Estilo del botón cuando el ratón está encima */
+    #BotonAgregar:hover {
+      background-color: #0d47a1 !important;
+      color: white !important; 
+      border-color: #002171 !important;
+      transform: translateY(-2px) !important;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15) !important;
+    }
+
+/* Estilo del botón Eliminar */
+  #BotonEliminar {
+    background-color: red !important; /* Changed to red */
+    color: rgb(246, 246, 246) !important; /* Changed to rgb(246, 246, 246) */
+    border: 3px solid red !important;
+    font-weight: bold !important;
+    transition: all 0.3s ease !important;
+    margin-right: 1.5px !important;
+  }
+
+/* Estilo del botón cuando el ratón está encima */
+  #BotonEliminar:hover {
+    background-color: rgb(246, 246, 246) !important; /* Changed to rgb(246, 246, 246) */
+    color: red !important; /* Changed to red */
+    border-color: red !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15) !important;
+  }
+
+/* Periodo */
+    /* Periodos guardados */
+    .periodos-container {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: wrap !important;
+      gap: 1rem !important;
+    }
+
+    /* Este es cada periodo individual dentro de la estantería */
+    .periodo-existente-form {
+      flex: 0 0 370px !important;
+    }
+
+    .title.is-5 {
+      display: flex !important;
+      justify-content: space-around !important;
+      flex-direction: row !important;
+      flex-wrap: wrap !important;
+      margin-top: 20px !important;
+      margin-bottom: 35px !important;
+      color: #000000aa !important;
+    }
+    
+    /* Agregar Periodos */
+    #periodosContainer {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: wrap !important;
+      gap: 1rem !important;
+    }
+    
+    .nuevo-periodo-box {
+      max-width: 235px !important;
+    }
+
+    .campos-flex-container {
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: wrap !important;
+      gap: 1rem !important;
+    }
+
+    .campos-flex-container .field {
+      flex-grow: 1 !important;
+      min-width: 135px !important;
+    }
+    
+/* Registrar empresa */
+  .info-wrapper { 
+    display: flex !important;
+    justify-content: space-around !important;
+    flex-wrap: wrap !important;
+    gap: 2rem !important;
+    align-items: flex-start !important;
+  }
+
+  .Titulo {
+    display: flex !important;
+    justify-content: space-around !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    margin-top: 20px !important;
+    margin-bottom: 35px !important;
+  }
+
+  .title.is-3 {
+    display: flex !important;
+    justify-content: space-around !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    margin-top: 20px !important;
+    margin-bottom: 35px !important;
+    color: #0d3f96 !important;
+  }
+
+  .input {
+    border-color: #0d3f96 !important;
+  }
+
+  .info {
+    display: flex !important;
+    justify-content: space-around !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+  }
+
+/* Boton de aguardar */
+
+
+/* Ancho del boton selecionar empresa*/
+    @media (min-width: 768px) {
+      .form-wide .select select {
+        width: 230px !important;
+      }
+    }
